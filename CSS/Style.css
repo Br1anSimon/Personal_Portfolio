@@ -1,9 +1,124 @@
+body {
+    background-color: #121212 ;
+    font-family: 'poppinsregular', serif;
+
+}
+a{
+    color:#364050;
+    text-decoration:none;
+}
+a:hover{
+    color:#6a717f;
+}
 
 
+.namedisplay{
+    color: #00FFFF;
+    font-family: 'poppinsregular', serif;
+    font-size: 24px;
+    float: left;
+    top: 0;
+    margin-top: -1%;
+    padding-right: 17%;
+    padding-left: 10%;
+    padding-top: 0.75%;
+}
+.nav-a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 0;
+
+
+
+}
+.nav-ul{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 25%;
+    margin-top: 1.5%;
+
+}
+.middle-row{
+    padding-top: 10%;
+    /*border-style: solid;*/
+    /*border-color:green;*/
+    /*border-width:3px;*/
+}
+.middle-content{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    /*border-style: solid;*/
+    /*border-color:red;*/
+    /*border-width:3px;*/
+}
+.middle-words{
+    padding-top: 5%;
+    padding-left:30%;
+    width:40%;
+    /*border-style: dashed;*/
+    /*border-color:blue;*/
+    /*border-width:2px;*/
+}
+.hello-world {
+    color: #00FFFF;
+    font-size: 18px;
+
+}
+.Brian-Simon{
+    color:white;
+    font-size: 42px;
+}
+.jobtitle{
+    color:#00FFFF;
+    font-size:20px;
+}
+.welcome{
+    color:white;
+    font-size:18px;
+}
+
+.middle-picture{
+    width:100%;
+    padding-left: 0;
+    float: left;
+    margin-left: -10%;
+    /*border-style: dashed;*/
+    /*border-color:yellow;*/
+    /*border-width:2px;*/
+}
+.toothless {
+    /*border-style: dashed;*/
+    /*border-color:purple;*/
+    /*border-width:2px;*/
+}
+
+
+.githublink{
+    float:right;
+    margin-top: -2.5%;
+    top: 0;
+    padding-right: 10%;
+}
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;}
+
+@font-face{
+    font-family: 'poppinsregular';
+    src: url('../FONTS/AnyConv.com__Poppins-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 /*font-family: 'razerf5regular', serif;*/
