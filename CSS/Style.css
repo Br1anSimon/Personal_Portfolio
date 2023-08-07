@@ -4,6 +4,9 @@ body {
     color: white;
 
 }
+hr{
+    background-color: #00FFFF;
+}
 a{
     color:#364050;
     text-decoration:none;
@@ -121,12 +124,7 @@ a:hover{
     -moz-box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
     box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
 }
-.toothless2{
-    border-style: solid;
-    border-radius: 50%;
-    border-width: 4px;
-    border-color: #00FFFF;
-}
+
 
 .githublink{
     float:right;
@@ -139,18 +137,25 @@ a:hover{
     width: 75%;
     height: 50%;
     margin:auto;
+    border-radius: 30px;
+    border-color: #383838;
     border-style: solid;
-    border-width: 3px;
-    border-color: #6a717f;
-    background-color: ;
+    border-width: 2px;
+    background-color:#1e1e1f;
+    /*border-style: solid;*/
+    /*border-width: 3px;*/
+    /*border-color: #6a717f;*/
+
 }
 .topline{
+    display: flex;
+    flex-direction: row;
     box-sizing: border-box;
     white-space: nowrap;
     padding: 2% 2%;
-    border-style: dashed;
-    border-color: #00FFFF;
-    border-width: 2px;
+    /*border-style: dashed;*/
+    /*border-color: #00FFFF;*/
+    /*border-width: 2px;*/
 }
 .aboutme{
 
@@ -165,29 +170,54 @@ a:hover{
 .aboutmeline{
     margin-left: 13%;
     margin-top: -1.5%;
-    width: 45%;
+    width: 30%;
+    border-color: #00FFFF;
 }
 .middle-line{
-    border-style: dashed;
-    border-color: red;
-    border-width: 2px;
+    box-sizing: border-box;
+    /*border-style: dashed;*/
+    /*border-color: red;*/
+    /*border-width: 2px;*/
 }
 .middle-line-content{
     display: flex;
     flex-direciton: row;
 }
 .toothless2container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width:50%;
     width: 50%;
-    border-style: dashed;
-    border-color: green;
-    border-width: 2px;
+    margin: auto;
+    padding-bottom: 3%;
+    /*border-style: dashed;*/
+    /*border-color: green;*/
+    /*border-width: 2px;*/
+}
+.toothless2{
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #00FFFF;
 }
 .about-me-words{
+    box-sizing: border-box;
+    font-size: 18px;
+    min-width:50%;
     width: 50%;
     float: right;
-    border-style: dashed;
-    border-color: blue;
-    border-width: 2px;
+    word-spacing: 3px;
+    padding-left: 1%;
+    padding-right: 1%;
+    /*border-style: dashed;*/
+    /*border-color: blue;*/
+    /*border-width: 2px;*/
+
 }
 
 @font-face {
