@@ -51,6 +51,7 @@ a:hover{
     /*border-width:3px;*/
 }
 .middle-content{
+
     display:flex;
     flex-direction: row;
     width:100%;
@@ -60,8 +61,10 @@ a:hover{
 }
 .middle-words{
     padding-top: 5%;
-    padding-left:30%;
-    width:40%;
+    text-indent: 62%;
+    float:right;
+    min-width:51%;
+    max-width:51%;
     /*border-style: dashed;*/
     /*border-color:blue;*/
     /*border-width:2px;*/
@@ -85,10 +88,9 @@ a:hover{
 }
 
 .middle-picture{
-    width:100%;
-    padding-left: 0;
+    min-width:auto;
+    padding-left: 1%;
     float: left;
-    margin-left: -10%;
     /*border-style: dashed;*/
     /*border-color:yellow;*/
     /*border-width:2px;*/
@@ -97,6 +99,15 @@ a:hover{
     /*border-style: dashed;*/
     /*border-color:purple;*/
     /*border-width:2px;*/
+
+    float: left;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #00FFFF;
+    -webkit-box-shadow:0px 0px 73px -9px rgba(0,255,255,0.7);
+    -moz-box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
+    box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
 }
 
 
