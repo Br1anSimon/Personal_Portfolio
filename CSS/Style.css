@@ -1,6 +1,7 @@
 body {
     background-color: #121212 ;
     font-family: 'poppinsregular', serif;
+    color: white;
 
 }
 a{
@@ -135,12 +136,13 @@ a:hover{
 }
 
 .about-me-box{
-    width: 60%;
+    width: 75%;
     height: 50%;
     margin:auto;
     border-style: solid;
     border-width: 3px;
     border-color: #6a717f;
+    background-color: ;
 }
 .topline{
     box-sizing: border-box;
@@ -165,6 +167,29 @@ a:hover{
     margin-top: -1.5%;
     width: 45%;
 }
+.middle-line{
+    border-style: dashed;
+    border-color: red;
+    border-width: 2px;
+}
+.middle-line-content{
+    display: flex;
+    flex-direciton: row;
+}
+.toothless2container{
+    width: 50%;
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+}
+.about-me-words{
+    width: 50%;
+    float: right;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 2px;
+}
+
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
