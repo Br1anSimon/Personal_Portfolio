@@ -62,13 +62,13 @@ a:hover{
 .middle-words{
     padding-top: 5%;
     box-sizing: border-box;
-    padding-left: 35%;
+    padding-left: 32%;
     float:right;
     min-width:51%;
     max-width:51%;
-    /*border-style: dashed;*/
-    /*border-color:blue;*/
-    /*border-width:2px;*/
+    border-style: dashed;
+    border-color:blue;
+    border-width:2px;
 }
 .hello-world {
     color: #00FFFF;
@@ -89,12 +89,13 @@ a:hover{
 }
 
 .middle-picture{
-    min-width:auto;
+    box-sizing: border-box;
+    min-width:49%;
     padding-left: 1%;
     float: left;
-    /*border-style: dashed;*/
-    /*border-color:yellow;*/
-    /*border-width:2px;*/
+    border-style: dashed;
+    border-color:yellow;
+    border-width:2px;
 }
 .toothless {
     /*border-style: dashed;*/
