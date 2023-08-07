@@ -120,7 +120,12 @@ a:hover{
     -moz-box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
     box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
 }
-
+.toothless2{
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #00FFFF;
+}
 
 .githublink{
     float:right;
@@ -138,14 +143,17 @@ a:hover{
     border-color: #6a717f;
 }
 .topline{
-    padding-left: 2%;
-    padding-top: 2%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    padding: 2% 2%;
     border-style: dashed;
     border-color: #00FFFF;
     border-width: 2px;
 }
 .aboutme{
+
     padding-left: 2%;
+
     color: white;
     font-size: 22px;
 }
