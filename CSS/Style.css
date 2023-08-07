@@ -61,7 +61,8 @@ a:hover{
 }
 .middle-words{
     padding-top: 5%;
-    text-indent: 62%;
+    box-sizing: border-box;
+    padding-left: 35%;
     float:right;
     min-width:51%;
     max-width:51%;
