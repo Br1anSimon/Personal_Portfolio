@@ -396,7 +396,73 @@ a:hover{
 .toolsbutton:hover{
     color: white;
 }
+.skillgrid{
+    display: flex;
+    flex-direction: row;
+    gap: 5% ;
+    flex-wrap: wrap;
+    width: auto;
+    margin: auto;
+    min-width: 30%;
+    max-width: 65%;
+    box-sizing: border-box;
+    border-style: dashed;
+    border-color: red;
+    border-width: 2px;
+}
+.skilltable{
+    table-layout: auto;
+    width: auto;
+    margin:auto;
+}
+.BlueBox{
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    margin-bottom: 2%;
+    min-width: 20%;
+    width: auto;
+    height: 4em;
+    max-width: 20%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #00FFFF;
+    border-width: 1px;
 
+}
+.imagebox{
+    box-sizing: border-box;
+    display: flex;
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+    float: left;
+    height: 100%;
+    align-items: center;
+    vertical-align: middle;
+}
+.bigtextbox{
+    box-sizing: border-box;
+    font-size: 18px;
+    width: auto;
+    max-width: 150%;
+    max-height: 50%;
+    border-style: dashed;
+    border-color: orange;
+    border-width: 2px;
+}
+.smalltextbox{
+    box-sizing: border-box;
+    font-size: 12px;
+    width: auto;
+    max-width: 100%;
+    float: right;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 2px;
+
+}
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
