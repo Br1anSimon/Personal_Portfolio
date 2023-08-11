@@ -32,6 +32,13 @@ function toolsbuttonfunction(){
     document.getElementById("title2").innerHTML=("Github");
     document.getElementById("img2").innerHTML=(" <img src=\"../IMAGES/Github%20Logo.PNG\" width=\"40px\" height=\"40px\">");
     document.getElementById("level2").innerHTML=("Git Hosting");
+    document.getElementById("title3").innerHTML=("Webstorm")
+    document.getElementById("img3").innerHTML=(" <img src=\"../IMAGES/webstormimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level3").innerHTML=("Developer IDE");
+    document.getElementById("title4").innerHTML=("PyCharm")
+    document.getElementById("img4").innerHTML=(" <img src=\"../IMAGES/pycharmimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level4").innerHTML=("Developer IDE");
+    
 
 
 }
