@@ -287,9 +287,9 @@ a:hover{
     width: 65%;
     flex-direction: row;
     padding: 1% 1%;
-    border-style: dashed;
-    border-color: yellow;
-    border-width: 2px;
+    /*border-style: dashed;*/
+    /*border-color: yellow;*/
+    /*border-width: 2px;*/
 }
 .skillstablecontainerdiv{
     display: table;
@@ -327,8 +327,76 @@ a:hover{
     border-color: #00FFFF;
 }
 .togglebuttonscontainer{
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 2%;
+    margin: auto;
+    width: 65%;
+    vertical-align: middle;
+    flex-direction: row;
+    border-style: dashed;
+    border-color: lime;
+    border-width: 2px;
+}
+.buttonscontainer{
+    display: table;
+
+    margin-top: 1%;
+    vertical-align: middle;
+    width: auto;
+    height: 2.8em;
+    border-style: dashed;
+    border-color: red;
+    boreder-width: 2px;
+}
+.techstackbuttoncontainer{
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: auto;
+    border-style: dashed;
+    border-color: magenta;
+    border-width: 2px;
+}
+.toolsbuttoncontainer{
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: auto;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 2px;
 
 }
+.techstackbutton{
+    background-color: #004647;
+    opacity: 0.6;
+    height: 100%;
+    border-radius: 5px;
+
+    color: #00FFFF;
+    border: 0;
+    box-shadow: none;
+    font-family: 'poppinsregular', serif;
+
+}
+.toolsbutton{
+    background-color: #004647;
+    height: 100%;
+    border:0;
+    border-radius:5px;
+    box-shadow: none;
+    color: #00FFFF;
+    opacity: 0.6;
+    font-family: 'poppinsregular', serif;
+}
+.techstackbutton:hover{
+    color: white;
+}
+.toolsbutton:hover{
+    color: white;
+}
+
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
