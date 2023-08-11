@@ -38,6 +38,15 @@ function toolsbuttonfunction(){
     document.getElementById("title4").innerHTML=("PyCharm")
     document.getElementById("img4").innerHTML=(" <img src=\"../IMAGES/pycharmimage.png\" width=\"40px\" height=\"40px\">")
     document.getElementById("level4").innerHTML=("Developer IDE");
+    document.getElementById("title5").innerHTML=("IntelliJ")
+    document.getElementById("img5").innerHTML=(" <img src=\"../IMAGES/intellijimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level5").innerHTML=("Developer IDE");
+    document.getElementById("title6").innerHTML=("Android Studio")
+    document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/androidstudioimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level6").innerHTML=("Developer IDE");
+    document.getElementById("title7").innerHTML=("Slack")
+    document.getElementById("img7").innerHTML=(" <img src=\"../IMAGES/slackimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level7").innerHTML=("Communications");
     
 
 
