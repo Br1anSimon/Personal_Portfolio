@@ -403,6 +403,7 @@ a:hover{
     flex-wrap: wrap;
     width: auto;
     margin: auto;
+    margin-top: 1%;
     min-width: 30%;
     max-width: 65%;
     box-sizing: border-box;
@@ -419,6 +420,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     margin:auto;
+    justify-content: space-around;
     margin-bottom: 2%;
     min-width: 20%;
     width: auto;
@@ -434,33 +436,41 @@ a:hover{
 .imagebox{
     box-sizing: border-box;
     display: flex;
-    border-style: dashed;
-    border-color: green;
-    border-width: 2px;
+    /*border-style: dashed;*/
+    /*border-color: green;*/
+    /*border-width: 2px;*/
     float: left;
     height: 100%;
     align-items: center;
     vertical-align: middle;
 }
+.bothtextsbox{
+    width: auto;
+    min-width: 50%;
+    float: right;
+    box-sizing: border-box;
+    /*border-style: dashed;*/
+    /*border-color: pink;*/
+    /*border-width: 2px;*/
+}
 .bigtextbox{
     box-sizing: border-box;
     font-size: 18px;
     width: auto;
-    max-width: 150%;
-    max-height: 50%;
-    border-style: dashed;
-    border-color: orange;
-    border-width: 2px;
+    text-align: left;
+    /*border-style: dashed;*/
+    /*border-color: orange;*/
+    /*border-width: 2px;*/
 }
 .smalltextbox{
     box-sizing: border-box;
     font-size: 12px;
     width: auto;
-    max-width: 100%;
-    float: right;
-    border-style: dashed;
-    border-color: blue;
-    border-width: 2px;
+    margin: auto;
+    text-align: left;
+    /*border-style: dashed;*/
+    /*border-color: blue;*/
+    /*border-width: 2px;*/
 
 }
 @font-face {
