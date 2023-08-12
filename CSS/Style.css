@@ -499,7 +499,7 @@ a:hover{
 
 @font-face{
     font-family: 'poppinsregular';
-    src: url('https://github.com/DiamondShadows/Personal_Portfolio/blob/9d00119bac6a9dee16769c7cd43df21757d8d0e5/Fonts/AnyConv.com__Poppins-Regular.otf') format("truetype");
+    src: url('../../Personal_Portfolio/Fonts/AnyConv.com__Poppins-Regular.otf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
