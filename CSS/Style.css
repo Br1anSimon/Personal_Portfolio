@@ -473,6 +473,24 @@ a:hover{
     /*border-width: 2px;*/
 
 }
+#box7{
+    visibility: hidden;
+}
+#box8{
+    visibility: hidden;
+}
+#box9{
+    visibility: hidden;
+}
+#box10{
+    visibility: hidden;
+}
+#box11{
+    visibility: hidden;
+}
+#box12{
+    visibility: hidden;
+}
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
