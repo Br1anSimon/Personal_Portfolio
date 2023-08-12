@@ -46,8 +46,22 @@ function toolsbuttonfunction(){
     document.getElementById("level6").innerHTML=("Developer IDE");
     document.getElementById("title7").innerHTML=("Slack")
     document.getElementById("img7").innerHTML=(" <img src=\"../IMAGES/slackimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level7").innerHTML=("Communications");
-    
+    document.getElementById("level8").innerHTML=("Communications");
+    document.getElementById("title8").innerHTML=("Photoshop")
+    document.getElementById("img8").innerHTML=(" <img src=\"../IMAGES/photoshopimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level8").innerHTML=("Digital Media Editing");
+    document.getElementById("title9").innerHTML=("Drop Box")
+    document.getElementById("img9").innerHTML=(" <img src=\"../IMAGES/slackimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level9").innerHTML=("File Sharing");
+    document.getElementById("title10").innerHTML=("LinkedIn")
+    document.getElementById("img10").innerHTML=(" <img src=\"../IMAGES/linkedinimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level10").innerHTML=("Networking");
+    document.getElementById("title11").innerHTML=("Teams")
+    document.getElementById("img11").innerHTML=(" <img src=\"../IMAGES/teamsimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("level11").innerHTML=("Communications");
+    document.getElementById("title12").innerHTML=("Notion")
+    document.getElementById("img12").innerHTML=(" <img src=\"../IMAGES/notionimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("leve12").innerHTML=("Note Taking");
 
 
 }
