@@ -499,7 +499,7 @@ a:hover{
 
 @font-face{
     font-family: 'poppinsregular';
-    src: url('../FONTS/AnyConv.com__Poppins-Regular.otf');
+    src: url('../../Personal_Portfolio/FONTS/AnyConv.com__Poppins-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
