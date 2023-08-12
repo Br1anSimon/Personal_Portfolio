@@ -407,9 +407,9 @@ a:hover{
     min-width: 30%;
     max-width: 65%;
     box-sizing: border-box;
-    border-style: dashed;
-    border-color: red;
-    border-width: 2px;
+    /*border-style: dashed;*/
+    /*border-color: red;*/
+    /*border-width: 2px;*/
 }
 .skilltable{
     table-layout: auto;
