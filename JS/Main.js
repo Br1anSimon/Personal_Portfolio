@@ -20,6 +20,11 @@ function techstackbuttonfunction() {
     document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/swiftimage.png\" width=\"40px\" height=\"40px\">")
     document.getElementById("level6").innerHTML=("Intermediate");
     document.getElementById("box7").style.visibility="hidden";
+    document.getElementById("box8").style.visibility="hidden";
+    document.getElementById("box9").style.visibility="hidden";
+    document.getElementById("box10").style.visibility="hidden";
+    document.getElementById("box11").style.visibility="hidden";
+    document.getElementById("box12").style.visibility="hidden";
 }
 
 
