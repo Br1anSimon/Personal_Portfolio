@@ -19,7 +19,7 @@ function techstackbuttonfunction() {
     document.getElementById("title6").innerHTML=("Swift")
     document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/swiftimage.png\" width=\"40px\" height=\"40px\">")
     document.getElementById("level6").innerHTML=("Intermediate");
-    
+    document.getElementById("box7").style.visibility="hidden";
 }
 
 
