@@ -524,6 +524,7 @@ a:hover{
     margin:auto;
     max-width: 60%;
     margin-top: 3%;
+    margin-bottom: 10%;
     box-sizing: border-box;
     border-style: dashed;
     border-color: lime;
@@ -616,6 +617,26 @@ a:hover{
     src: url('../Fonts/AnyConv.com__Poppins-Regular.otf') format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #1e1e1f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00FFFF;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00FFFF;
 }
 
 
