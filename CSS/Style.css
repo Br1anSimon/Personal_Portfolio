@@ -539,6 +539,7 @@ a:hover{
     max-width: 30%;
     height: auto;
     margin: auto;
+    margin-bottom: 2%;
     border-radius: 5px;
     background-color:#1e1e1f;
     border-color: #383838;
@@ -561,15 +562,15 @@ a:hover{
     width: auto;
     height: auto;
     margin: auto;
-    border-color: purple;
-    border-style: solid;
-    border-width: 1px;
+    /*border-color: purple;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
 }
 .itemtitle{
     height: auto;
-    border-color: orange;
-    border-style: dashed;
-    border-width: 2px;
+    /*border-color: orange;*/
+    /*border-style: dashed;*/
+    /*border-width: 2px;*/
 }
 .itemdescription{
     box-sizing: border-box;
@@ -577,9 +578,9 @@ a:hover{
     color: darkgray;
     margin-bottom: 30%;
     max-height: 0.0000000005vh;
-    border-color: green;
-    border-style: dashed;
-    border-width: 2px;
+    /*border-color: green;*/
+    /*border-style: dashed;*/
+    /*border-width: 2px;*/
 
 }
 .itemtools{
@@ -589,9 +590,9 @@ a:hover{
     color: #00FFFF;
     text-align: left;
     min-width: 100%;
-    border-color: yellow;
-    border-style: solid;
-    border-width: 1px;
+    /*border-color: yellow;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
 }
 .itemlinks{
     min-width: 100%;
@@ -599,9 +600,9 @@ a:hover{
     margin-bottom: 0;
     margin-right: 2%;
     height: auto;
-    border-color: blue;
-    border-style: dashed;
-    border-width: 1px;
+    /*border-color: blue;*/
+    /*border-style: dashed;*/
+    /*border-width: 1px;*/
 }
 .githubrepolinkimage{
     margin-right: 1%;
