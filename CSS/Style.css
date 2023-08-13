@@ -521,7 +521,6 @@ a:hover{
     width: auto;
     margin:auto;
     max-width: 75%;
-    min-height: 100%;
     margin-top: 3%;
     box-sizing: border-box;
     border-style: dashed;
@@ -537,7 +536,6 @@ a:hover{
     margin-bottom: 2%;
     min-width: 20%;
     width: auto;
-    height: auto;
     max-width: 20%;
     border-radius: 5px;
     box-sizing: border-box;
