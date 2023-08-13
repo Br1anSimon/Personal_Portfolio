@@ -539,6 +539,7 @@ a:hover{
     max-width: 30%;
     height: auto;
     margin: auto;
+    margin-top: 0;
     margin-bottom: 2%;
     border-radius: 5px;
     background-color:#1e1e1f;
@@ -576,8 +577,7 @@ a:hover{
     box-sizing: border-box;
     font-size: 14px;
     color: darkgray;
-    margin-bottom: 30%;
-    max-height: 0.0000000005vh;
+    margin-bottom: 15%;
     /*border-color: green;*/
     /*border-style: dashed;*/
     /*border-width: 2px;*/
