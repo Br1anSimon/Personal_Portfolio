@@ -142,7 +142,6 @@ a:hover{
     box-sizing: border-box;
     display: flex;
     align-items: center;
-
     min-width:49%;
     padding-left: 0.25%;
     width: 50%;
@@ -159,7 +158,6 @@ a:hover{
     max-width: 50%;
     width: auto;
     height: auto;
-
     float: left;
     border-style: solid;
     border-radius: 50%;
@@ -411,11 +409,7 @@ a:hover{
     /*border-color: red;*/
     /*border-width: 2px;*/
 }
-.skilltable{
-    table-layout: auto;
-    width: auto;
-    margin:auto;
-}
+
 .BlueBox{
     display: flex;
     flex-direction: row;
@@ -491,6 +485,98 @@ a:hover{
 #box12{
     visibility: hidden;
 }
+.portfoliotitleline{
+    width: auto;
+    margin: auto;
+    margin-top: 3%;
+    min-width: 30%;
+    max-width: 65%;
+    box-sizing: border-box;
+    /*border-style: dashed;*/
+    /*border-color: pink;*/
+    /*border-width: 2px;*/
+}
+.portfoliotitle{
+    width: auto;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    /*border-style: dashed;*/
+    /*border-color: blue;*/
+    /*border-width: 2px;*/
+}
+
+.portfoliosubtitle{
+    width: auto;
+    margin: auto;
+    color: #00FFFF;
+    text-align: center;
+    /*border-style: dashed;*/
+    /*border-color: red;*/
+    /*border-width: 2px;*/
+}
+
+.portfoliogrid {
+    display: flex;
+    width: auto;
+    margin:auto;
+    max-width: 75%;
+    min-height: 100%;
+    margin-top: 3%;
+    box-sizing: border-box;
+    border-style: dashed;
+    border-color: lime;
+    border-width: 2px;
+}
+.portfolioitems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 2%;
+    min-width: 20%;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color:#1e1e1f;
+    border-color: #383838;
+    border-style: solid;
+    border-width: 1px;}
+
+.itemimage{
+    width: auto;
+    height: auto;
+    margin: auto;
+    /*border-color: purple;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+}
+.itemdescription{
+    font-size: 14px;
+    color: darkgray;
+}
+.itemtools{
+    margin-top: 2%;
+    font-size: 14px;
+    color: #00FFFF;
+    text-align: left;
+    min-width: 100%;
+    /*border-color: yellow;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+}
+.itemlinks{
+    min-width: 100%;
+    text-align: right;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+.githubrepolinkimage{
+    margin-right: 1%;
+}
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
@@ -499,7 +585,7 @@ a:hover{
 
 @font-face{
     font-family: 'poppinsregular';
-    src: url('../../Personal_Portfolio/Fonts/AnyConv.com__Poppins-Regular.otf') format("truetype");
+    src: url('../Fonts/AnyConv.com__Poppins-Regular.otf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
