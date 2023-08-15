@@ -137,8 +137,14 @@ a:hover{
     font-size: 42px;
 }
 .jobtitle{
-    color:#00FFFF;
+    color: #00FFFF;
+    /*background-image: conic-gradient(#00FFFF,85%, #ffffff);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
     font-size:20px;
+    /*border-style: dashed;*/
+    /*border-color: pink;*/
+    /*border-width: 2px;*/
 }
 .welcome{
     color:white;
@@ -517,6 +523,13 @@ a:hover{
 }
 
 .portfoliosubtitle{
+    background-color: #00FFFF;
+
+    background-image: conic-gradient(#00FFFF, 66%, #ffffff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     width: auto;
     margin: auto;
     color: #00FFFF;
