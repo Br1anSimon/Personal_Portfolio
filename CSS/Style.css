@@ -24,58 +24,42 @@ a:hover{
 }
 
 .fixed-header{
+    box-sizing: border-box;
+    display: table;
     backdrop-filter: blur(10px);
-
     position: fixed;
     top: 0;
-    padding-bottom: 1%;
     width: 100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
     /*border-style: dashed;*/
     /*border-color: white;*/
     /*border-width: 2px;*/
 }
-.namedisplaycontainer{
-    backdrop-filter: blur(3px);
-    box-sizing: border-box;
 
-    min-width: 30%;
-    float: right;
-    /*border-style: dashed;*/
-    /*border-color: orange;*/
-    /*border-width: 2px;*/
-
-}
 .namedisplay{
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center;
+    width: 20%;
     color: #00FFFF;
     font-family: 'poppinsregular', serif;
-    display: flex;
-    flex-direction: row;
     font-size: 24px;
-    float: left;
     /*border-style: dashed;*/
     /*border-color: blue;*/
     /*border-width: 2px;*/
 }
 .nav-a{
+    display: table-cell;
+    width: 60%;
     box-sizing: border-box;
-    flex-grow: 1;
     font-size: 18px;
     text-decoration: none;
-    width: 40%;
-    max-width: 50%;
     /*border-style: dashed;*/
     /*border-color: green;*/
     /*border-width: 2px;*/
 
-
-
-
 }
 .nav-ul{
-
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
@@ -84,27 +68,64 @@ a:hover{
     justify-content: center;
     gap: 5%;
     flex-wrap: nowrap;
-    margin-top: 1.5%;
     /*border-style: dashed;*/
     /*border-color: yellow;*/
     /*border-width: 2px;*/
 
 }
+
 .githubbox{
-    float:right;
-    width: auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 20%;
     /*border-style: dashed;*/
     /*border-color: purple;*/
     /*border-width: 2px;*/
 
+
 }
-.githublink{
-    float:right;
-    top: 0;
-    margin:auto;
-    padding-right: 1%;
+.githublinkcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width:50%;
+    width: 50%;
+    margin: auto;
+
 }
 
+.githublink{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    top: 0;
+    margin:auto;
+
+}
+.toothless2container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width:50%;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3%;
+    /*border-style: dashed;*/
+    /*border-color: green;*/
+    /*border-width: 2px;*/
+}
+.toothless2{
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #00FFFF;
+}
 
 .middle-content{
     box-sizing: border-box;
