@@ -148,6 +148,9 @@ a:hover{
     /*border-color:blue;*/
     /*border-width:2px;*/
 }
+.-mobile-title-words{
+    display: none;
+}
 .hello-world {
     color: #00FFFF;
     font-size: 18px;
@@ -684,6 +687,93 @@ a:hover{
     background: #00FFFF;
 }
 
+@media (max-width: 768px){
+    .middle-words{
+        display: none;
+    }
+    .middle-content{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        border-style: solid;
+        border-color:red;
+        border-width:3px;
+    }
+    .-mobile-title-words{
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-style: dashed;
+        border-color:blue;
+        border-width:2px;
+    }
+    .mobilewordsbox{
+        width: 100%;
+        border-style: dashed;
+        border-color:orange;
+        border-width:2px;
+    }
+    .mobile-hello-world {]
+        margin-top: 5%;
+        padding-top: 5%;
+        text-align: center;
+        color: #00FFFF;
+        font-size: 16px;
+        border-style: dashed;
+        border-color:red;
+        border-width:2px;
+    }
+    .mobile-Brian-Simon{
+        text-align: center;
+        color:white;
+        font-size: 38px;
+        border-style: dashed;
+        border-color:green;
+        border-width:2px;
+    }
+    .mobile-jobtitle{
+        text-align: center;
+        color: #00FFFF;
+        font-size:20px;
+        border-style: dashed;
+        border-color: pink;
+        border-width: 2px;
+    }
+    .mobilewelcome{
+        text-align: center;
+        color:white;
+        font-size:16px;
+        border-style: dashed;
+        border-color:yellow;
+        border-width:2px;
+    }
 
+    .middle-picture{
+        margin-top: 15%;
+        box-sizing: border-box;
+        display: flex;
+        width: 100%;
+        border-style: dashed;
+        border-color:yellow;
+        border-width:2px;
+    }
+    .toothless {
+        /*border-style: dashed;*/
+        /*border-color:purple;*/
+        /*border-width:2px;*/
+        margin: auto;
+        max-width: 50%;
+        width: auto;
+        height: auto;
+        border-style: solid;
+        border-radius: 50%;
+        border-width: 4px;
+        border-color: #00FFFF;
+        -webkit-box-shadow:0px 0px 73px -9px rgba(0,255,255,0.7);
+        -moz-box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
+        box-shadow: 0px 0px 73px -9px rgba(0,255,255,0.7);
+    }
+
+}
 
 /*font-family: 'razerf5regular', serif;*/
