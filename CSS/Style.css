@@ -689,7 +689,7 @@ a:hover{
     background: #00FFFF;
 }
 
-@media (max-width: 768px){
+@media (max-width: 1290px){
     .middle-words{
         display: none;
     }
