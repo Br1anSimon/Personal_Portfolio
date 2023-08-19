@@ -1028,7 +1028,7 @@ a:hover{
         color: rgba(0,225,225,100);
         border: 0;
         box-shadow: none;
-        font-size: 20px;
+        font-size: 24px;
         font-family: 'poppinsregular', serif;
 
     }
@@ -1039,7 +1039,7 @@ a:hover{
         border-radius:5px;
         box-shadow: none;
         width: 100%;
-        font-size: 20px;
+        font-size: 24px;
         color: rgba(0,225,225,100);
         font-family: 'poppinsregular', serif;
     }
@@ -1057,6 +1057,7 @@ a:hover{
         width: auto;
         margin: auto;
         margin-top: 1%;
+        margin-bottom: 20%;
         min-width: 100%;
         box-sizing: border-box;
         /*border-style: dashed;*/
