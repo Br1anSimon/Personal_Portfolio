@@ -15,10 +15,10 @@ function techstackbuttonfunction() {
     document.getElementById("level4").innerHTML=("Intermediate");
     document.getElementById("title5").innerHTML=("Java")
     document.getElementById("img5").innerHTML=(" <img src=\"../IMAGES/javaimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level5").innerHTML=("Intermediate");
+    document.getElementById("level5").innerHTML=("Advanced");
     document.getElementById("title6").innerHTML=("Swift")
     document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/swiftimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level6").innerHTML=("Intermediate");
+    document.getElementById("level6").innerHTML=("Beginner");
     document.getElementById("box7").style.visibility="hidden";
     document.getElementById("box8").style.visibility="hidden";
     document.getElementById("box9").style.visibility="hidden";
