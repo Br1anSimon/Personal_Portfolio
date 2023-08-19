@@ -1072,7 +1072,7 @@ a:hover{
         margin-bottom: 2%;
         min-width: 45%;
         width: auto;
-        height: 5em;
+        height: 10em;
         max-width: 20%;
         border-radius: 5px;
         box-sizing: border-box;
@@ -1121,7 +1121,12 @@ a:hover{
         /*border-width: 2px;*/
 
     }
-
-}
+    .portfoliogrid{
+        display: flex;
+        flex-direction: column;
+    }
+}   .portfolioitems{
+        width: 100%;
+    }
 
 /*font-family: 'razerf5regular', serif;*/
