@@ -706,7 +706,7 @@ a:hover{
         border-width: 2px;
         width: 98%;
         box-sizing: border-box;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         display: flex;
 
@@ -977,12 +977,13 @@ a:hover{
         box-sizing: border-box;
         padding-left: 1%;
         margin: auto;
+        margin-bottom: 10%;
         width: 100%;
         vertical-align: middle;
         flex-direction: row;
-        border-style: dashed;
-        border-color: lime;
-        border-width: 2px;
+        /*border-style: dashed;*/
+        /*border-color: lime;*/
+        /*border-width: 2px;*/
     }
     .buttonscontainer{
         display: flex;
@@ -992,9 +993,9 @@ a:hover{
         vertical-align: middle;
         width: 50%;
         height: 2.8em;
-        border-style: dashed;
-        border-color: red;
-        boreder-width: 2px;
+        /*border-style: dashed;*/
+        /*border-color: red;*/
+        /*boreder-width: 2px;*/
     }
     .techstackbuttoncontainer{
         width: 100%;
@@ -1003,9 +1004,9 @@ a:hover{
         vertical-align: middle;
         box-sizing: border-box;
         height: auto;
-        border-style: dashed;
-        border-color: magenta;
-        border-width: 2px;
+        /*border-style: dashed;*/
+        /*border-color: magenta;*/
+        /*border-width: 2px;*/
     }
     .toolsbuttoncontainer{
         width: 100%;
@@ -1014,9 +1015,9 @@ a:hover{
         vertical-align: middle;
         box-sizing: border-box;
         height: auto;
-        border-style: dashed;
-        border-color: blue;
-        border-width: 2px;
+        /*border-style: dashed;*/
+        /*border-color: blue;*/
+        /*border-width: 2px;*/
 
     }
     .techstackbutton{
@@ -1037,7 +1038,7 @@ a:hover{
         border:0;
         border-radius:5px;
         box-shadow: none;
-        width: auto;
+        width: 100%;
         font-size: 20px;
         color: rgba(0,225,225,100);
         font-family: 'poppinsregular', serif;
@@ -1058,9 +1059,9 @@ a:hover{
         margin-top: 1%;
         min-width: 100%;
         box-sizing: border-box;
-        border-style: dashed;
-        border-color: red;
-        border-width: 2px;
+        /*border-style: dashed;*/
+        /*border-color: red;*/
+        /*border-width: 2px;*/
     }
 
     .BlueBox{
@@ -1071,7 +1072,7 @@ a:hover{
         margin-bottom: 2%;
         min-width: 45%;
         width: auto;
-        height: 4em;
+        height: 5em;
         max-width: 20%;
         border-radius: 5px;
         box-sizing: border-box;
@@ -1102,7 +1103,7 @@ a:hover{
     }
     .bigtextbox{
         box-sizing: border-box;
-        font-size: 18px;
+        font-size: 36px;
         width: auto;
         text-align: left;
         /*border-style: dashed;*/
@@ -1111,7 +1112,7 @@ a:hover{
     }
     .smalltextbox{
         box-sizing: border-box;
-        font-size: 12px;
+        font-size: 30px;
         width: auto;
         margin: auto;
         text-align: left;
