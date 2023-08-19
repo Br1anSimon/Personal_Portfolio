@@ -849,7 +849,7 @@ a:hover{
         padding-left: 2%;
         float: left;
         color: white;
-        font-size: 22px;
+        font-size: 36px;
         /*border-style: dashed;*/
         /*border-color: yellow;*/
         /*border-width: 2px;*/
@@ -913,7 +913,7 @@ a:hover{
     }
     .about-me-words{
         box-sizing: border-box;
-        font-size: 18px;
+        font-size: 32px;
         min-width:100%;
 
 
@@ -961,7 +961,7 @@ a:hover{
         display: table-cell;
         vertical-align: middle;
         padding-left: 1%;
-        font-size: 22px;
+        font-size: 36px;
         width: 90%;
         /*border-style: dashed;*/
         /*border-color: blue;*/
@@ -990,39 +990,44 @@ a:hover{
         margin-top: 1%;
         gap: 1em;
         vertical-align: middle;
-        width: auto;
+        width: 50%;
         height: 2.8em;
-        /*border-style: dashed;*/
-        /*border-color: red;*/
-        /*boreder-width: 2px;*/
+        border-style: dashed;
+        border-color: red;
+        boreder-width: 2px;
     }
     .techstackbuttoncontainer{
+        width: 100%;
+        text-align: center;
         display: table-cell;
         vertical-align: middle;
         box-sizing: border-box;
         height: auto;
-        /*border-style: dashed;*/
-        /*border-color: magenta;*/
-        /*border-width: 2px;*/
+        border-style: dashed;
+        border-color: magenta;
+        border-width: 2px;
     }
     .toolsbuttoncontainer{
+        width: 100%;
+        text-align: center;
         display: table-cell;
         vertical-align: middle;
         box-sizing: border-box;
         height: auto;
-        /*border-style: dashed;*/
-        /*border-color: blue;*/
-        /*border-width: 2px;*/
+        border-style: dashed;
+        border-color: blue;
+        border-width: 2px;
 
     }
     .techstackbutton{
         background: rgba(0, 70, 71, 0.6);
         height: 100%;
         border-radius: 5px;
-        width: auto;
+        width: 100%;
         color: rgba(0,225,225,100);
         border: 0;
         box-shadow: none;
+        font-size: 20px;
         font-family: 'poppinsregular', serif;
 
     }
@@ -1033,6 +1038,7 @@ a:hover{
         border-radius:5px;
         box-shadow: none;
         width: auto;
+        font-size: 20px;
         color: rgba(0,225,225,100);
         font-family: 'poppinsregular', serif;
     }
