@@ -748,6 +748,7 @@ a:hover{
     width: auto;
     margin-bottom: 1px;
     margin-left: 1px;
+    border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 250px;
     border-bottom-right-radius:250px;
