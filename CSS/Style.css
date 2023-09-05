@@ -654,8 +654,166 @@ a:hover{
     /*border-width: 1px;*/
 }
 .githubrepolinkimage{
+    width: 20px;
     margin-right: 1%;
 }
+.finishedprojectimage{
+    width: 20px;
+}
+.githubrepositoryimage:hover{
+    content: url("../IMAGES/coloredgithubrepolink.png");
+}
+.finishedprojectimage:hover{
+    content: url("../IMAGES/coloredfinishedprojectimage.png");
+}
+
+
+.contact-me-box{
+    width: 65%;
+    height: 60%;
+    margin:auto;
+    margin-top: 5%;
+    border-radius: 30px;
+    border-color: #383838;
+    border-style: solid;
+    border-width: 2px;
+    background-color:#1e1e1f;
+
+}
+.contacttopline{
+    display: table;
+    width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    white-space: nowrap;
+    padding: 2% 2%;
+    /*border-style: dashed;*/
+    /*border-color: #00FFFF;*/
+    /*border-width: 2px;*/
+}
+.contactme{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+    /*border-style: dashed;*/
+    /*border-color: yellow;*/
+    /*border-width: 2px;*/
+}
+.contact-line-outer-div{
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: 1%;
+    padding-left: 1%;
+    margin-left: 1%;
+    width: 95%;
+    height: 100%;
+    /*border-style: dashed;*/
+    /*border-color: lime;*/
+    /*border-width: 2px;*/
+}
+.contact-me-line-div{
+    float: left;
+    width: 97%;
+    /*border-style: dashed;*/
+    /*border-color: purple;*/
+    /*border-width: 2px;*/
+}
+.contactmeline{
+    float: left;
+    flex: 0.5;
+    width: 100%;
+    border-color: #00FFFF;
+}
+.contact-middle-line{
+    box-sizing: border-box;
+    /*border-style: dashed;*/
+    /*border-color: red;*/
+    /*border-width: 2px;*/
+    width: 100%;
+}
+.contact-middle-line-content{
+    width: 100%;
+    display: flex;
+    flex-direciton: row;
+}
+
+.squirqle-picture-container{
+    box-sizing: border-box;
+    background-color: #525252;
+    padding: 2%;
+    display:flex;
+    justify-content: flex-end;
+    vertical-align: center;
+    min-width: 50%;
+    width: auto;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius:250px;
+    border-style: solid;
+    border-color: #383838;
+    border-width: 3px;
+}
+.contact-me-image{
+    float: right;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-radius: 75%;
+    border-width: 4px;
+    border-color: #00FFFF;
+}
+.contact-me-links{
+    box-sizing: border-box;
+    font-size: 18px;
+    min-width:50%;
+    width: 50%;
+    float: right;
+    word-spacing: 3px;
+    padding-left: 3%;
+    padding-right: 1%;
+    /*border-style: dashed;*/
+    /*border-color: blue;*/
+    /*border-width: 2px;*/
+
+}
+.contactitem{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: center;
+    /*border-style: dashed;*/
+    /*border-color: green;*/
+    /*border-width: 2px;*/
+}
+.contactitempicture{
+    max-width: 25%;
+    display: flex;
+    /*border-style: dashed;*/
+    /*border-color: orange;*/
+    /*border-width: 2px;*/
+}
+.contactimage{
+    /*border-style: dashed;*/
+    /*border-color: blue;*/
+    /*border-width: 2px;*/
+}
+.contactitemtext{
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+    width: 100%;
+    /*border-style: dashed;*/
+    /*border-color: pink;*/
+    /*border-width: 2px;*/
+}
+
 @font-face {
     font-family: 'razerf5regular';
     src: url('../Fonts/RazerF5-Reg.otf');
@@ -1253,11 +1411,21 @@ a:hover{
         /*border-width: 1px;*/
     }
     .githubrepolinkimage{
-        width: 50px;
+
         margin-right: 1%;
+    }
+    .githubrepositoryimage{
+        width: 50px;
     }
     .finishedprojectimage{
         width: 50px;
+    }
+    .githubrepositoryimage:hover{
+        content: url("../IMAGES/coloredgithubrepolink.png");
+        
+    }
+    .finishedprojectimage:hover{
+        content: url("../IMAGES/coloredfinishedprojectimage.png");
     }
 }
 /*font-family: 'razerf5regular', serif;*/
