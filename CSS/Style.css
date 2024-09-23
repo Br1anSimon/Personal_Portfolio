@@ -168,6 +168,7 @@ a:hover{
     /*-webkit-background-clip: text;*/
     /*-webkit-text-fill-color: transparent;*/
     font-size:20px;
+    min-height: 35px;
     /*border-style: dashed;*/
     /*border-color: pink;*/
     /*border-width: 2px;*/
@@ -582,6 +583,7 @@ a:hover{
 .portfolioitems{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-sizing: border-box;
     text-align: center;
     min-width: 20%;
@@ -604,7 +606,9 @@ a:hover{
     justify-content: center;
     box-sizing: border-box;
     min-width:50%;
+    height: 150px;
     padding-bottom: 3%;
+    overflow: hidden;
 }
 .itemimage{
     box-sizing: border-box;
@@ -612,12 +616,15 @@ a:hover{
     width: auto;
     height: auto;
     margin: auto;
-    /*border-color: purple;*/
-    /*border-style: solid;*/
-    /*border-width: 1px;*/
+    margin-bottom: 1%;
+        /*border-color: purple;*/
+        /*border-style: solid;*/
+        /*border-width: 1px;*/
+    object-fit: cover;
 }
 .itemtitle{
     height: auto;
+
     /*border-color: orange;*/
     /*border-style: dashed;*/
     /*border-width: 2px;*/
@@ -626,7 +633,9 @@ a:hover{
     box-sizing: border-box;
     font-size: 14px;
     color: darkgray;
+
     margin-bottom: 15%;
+    margin-bottom:auto;
     /*border-color: green;*/
     /*border-style: dashed;*/
     /*border-width: 2px;*/
@@ -639,15 +648,19 @@ a:hover{
     color: #00FFFF;
     text-align: left;
     min-width: 100%;
+    margin-bottom:0;
+    margin-top: 10%;
     /*border-color: yellow;*/
     /*border-style: solid;*/
     /*border-width: 1px;*/
+
 }
 .itemlinks{
     min-width: 100%;
     text-align: right;
     margin-bottom: 0;
     margin-right: 2%;
+    margin-top: 2%;
     height: auto;
     /*border-color: blue;*/
     /*border-style: dashed;*/
@@ -938,6 +951,8 @@ a:hover{
         text-align: center;
         color: #00FFFF;
         font-size:38px;
+        height:30px;
+        margin-bottom: 2%;
         /*border-style: dashed;*/
         /*border-color: pink;*/
         /*border-width: 2px;*/
@@ -1324,11 +1339,11 @@ a:hover{
 
     .portfoliogrid {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         width: auto;
         margin:auto;
-        max-width: 100%;
+        max-width: 90%;
         margin-top: 3%;
         margin-bottom: 20%;
         box-sizing: border-box;
@@ -1342,6 +1357,8 @@ a:hover{
         box-sizing: border-box;
         text-align: center;
         min-width: 90%;
+        max-width: 100%;
+        max-height: 100%;
         height: auto;
         margin: auto;
         margin-top: 0;
@@ -1359,6 +1376,7 @@ a:hover{
         align-items: center;
         justify-content: center;
         box-sizing: border-box;
+        height: auto;
         min-width:50%;
         padding-bottom: 3%;
     }
@@ -1368,6 +1386,7 @@ a:hover{
         width: auto;
         height: auto;
         margin: auto;
+        object-fit: contain;
         /*border-color: purple;*/
         /*border-style: solid;*/
         /*border-width: 1px;*/
@@ -1383,7 +1402,7 @@ a:hover{
         box-sizing: border-box;
         font-size: 22px;
         color: darkgray;
-        margin-bottom: 15%;
+        margin-bottom:0;
         /*border-color: green;*/
         /*border-style: dashed;*/
         /*border-width: 2px;*/

@@ -76,3 +76,68 @@ function toolsbuttonfunction(){
 
 
 }
+// function jobtitleanimation(){
+//     var text = ["Software Engineer", "Web Developer", "Mobile Developer", "Game Developer", "Software Engineer", "Web Developer", "Mobile Developer", "Game Developer"];
+//     var counter = 0;
+//     var elem = document.getElementById("jobtitle");
+//     if (!elem) {
+//         console.error('Element with id "jobtitle" not found');
+//         return;
+//     }
+//     var inst = setInterval(change, 2000);
+//     function change(){
+//         elem.innerHTML = text[counter];
+//         counter++;
+//         if(counter >= text.length){
+//             counter = 0;
+//         }
+//     }
+// }
+
+function jobtitleanimation(){
+    var text = ["Software Engineer", "Web Developer", "Mobile Developer", "Game Developer"];
+    var counter = 0;
+    var elem1 = document.getElementById("jobtitle");
+    var elem2 = document.getElementById("jobtitle2");
+    if (!elem1 && !elem2) {
+        console.error('Elements with id "jobtitle" and "jobtitle2" not found');
+        return;
+    }
+    var isDeleting = false;
+    var currentText = '';
+    var speed = 100; // Adjust typing speed
+    var delay = 2000; // Adjust delay between texts
+
+    function change(){
+        var fullText = text[counter];
+        if (isDeleting) {
+            currentText = fullText.substring(0, currentText.length - 1); // Delete one character
+        } else {
+            currentText = fullText.substring(0, currentText.length + 1); // Add one character
+        }
+
+        if (elem1) {
+            elem1.innerHTML = currentText;
+        }
+        if (elem2) {
+            elem2.innerHTML = currentText;
+        }
+
+        // Adjust speed for typing and deleting
+        if (!isDeleting && currentText === fullText) {
+            isDeleting = true;
+            setTimeout(change, delay); // Pause after finishing typing
+        } else if (isDeleting && currentText === '') {
+            isDeleting = false;
+            counter = (counter + 1) % text.length; // Move to the next word
+            setTimeout(change, 500); // Short pause before typing next word
+        } else {
+            setTimeout(change, speed); // Continue typing or deleting
+        }
+    }
+
+    change(); // Start the animation
+}
+
+
+
