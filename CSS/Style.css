@@ -176,6 +176,7 @@ a:hover{
 .welcome{
     color:white;
     font-size:18px;
+    margin-top:0;
 }
 
 .middle-picture{
@@ -509,18 +510,8 @@ a:hover{
     /*border-width: 2px;*/
 
 }
-#box7{
-    visibility: hidden;
-}
-#box8{
-    visibility: hidden;
-}
-#box9{
-    visibility: hidden;
-}
-#box10{
-    visibility: hidden;
-}
+
+
 #box11{
     visibility: hidden;
 }
@@ -1442,7 +1433,7 @@ a:hover{
     }
     .githubrepositoryimage:hover{
         content: url("../IMAGES/coloredgithubrepolink.png");
-        
+
     }
     .finishedprojectimage:hover{
         content: url("../IMAGES/coloredfinishedprojectimage.png");

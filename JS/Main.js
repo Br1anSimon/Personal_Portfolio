@@ -1,32 +1,39 @@
 function techstackbuttonfunction() {
     document.querySelector(".toolsbutton").style.background="rgba(0,70,71,0.0)";
     document.querySelector(".techstackbutton").style.background="rgba(0,70,71,0.6)";
-    document.getElementById("title1").innerHTML=("HTML")
-    document.getElementById("img1").innerHTML=(" <img src=\"../IMAGES/htmlimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level1").innerHTML=("Intermediate");
-    document.getElementById("title2").innerHTML=("CSS")
-    document.getElementById("img2").innerHTML=(" <img src=\"../IMAGES/cssimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("title1").innerHTML=("Java");
+    document.getElementById("img1").innerHTML=(" <img src=\"../IMAGES/javaimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level1").innerHTML=("Advanced");
+    document.getElementById("title2").innerHTML=("Python");
+    document.getElementById("img2").innerHTML=(" <img src=\"../IMAGES/pythonimage.png\" width=\"40px\" height=\"40px\">");
     document.getElementById("level2").innerHTML=("Intermediate");
-    document.getElementById("title3").innerHTML=("CSS")
-    document.getElementById("img3").innerHTML=(" <img src=\"../IMAGES/javascriptimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("title3").innerHTML=("HTML");
+    document.getElementById("img3").innerHTML=(" <img src=\"../IMAGES/htmlimage.png\" width=\"40px\" height=\"40px\">");
     document.getElementById("level3").innerHTML=("Intermediate");
-    document.getElementById("title4").innerHTML=("Python")
-    document.getElementById("img4").innerHTML=(" <img src=\"../IMAGES/pythonimage.png\" width=\"40px\" height=\"40px\">")
+    document.getElementById("title4").innerHTML=("CSS");
+    document.getElementById("img4").innerHTML=(" <img src=\"../IMAGES/cssimage.png\" width=\"40px\" height=\"40px\">");
     document.getElementById("level4").innerHTML=("Intermediate");
-    document.getElementById("title5").innerHTML=("Java")
-    document.getElementById("img5").innerHTML=(" <img src=\"../IMAGES/javaimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level5").innerHTML=("Advanced");
-    document.getElementById("title6").innerHTML=("Swift")
-    document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/swiftimage.png\" width=\"40px\" height=\"40px\">")
-    document.getElementById("level6").innerHTML=("Beginner");
-    document.getElementById("box7").style.visibility="hidden";
-    document.getElementById("box8").style.visibility="hidden";
-    document.getElementById("box9").style.visibility="hidden";
-    document.getElementById("box10").style.visibility="hidden";
+    document.getElementById("title5").innerHTML=("JavaScript");
+    document.getElementById("img5").innerHTML=(" <img src=\"../IMAGES/javascriptimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level5").innerHTML=("Intermediate");
+    document.getElementById("title6").innerHTML=("React");
+    document.getElementById("img6").innerHTML=(" <img src=\"../IMAGES/reactimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level6").innerHTML=("Intermediate");
+    document.getElementById("title7").innerHTML=("React Native");
+    document.getElementById("img7").innerHTML=(" <img src=\"../IMAGES/reactimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level7").innerHTML=("Beginner");
+    document.getElementById("title8").innerHTML=("Tailwind");
+    document.getElementById("img8").innerHTML=(" <img src=\"../IMAGES/tailwindimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level8").innerHTML=("Beginner");
+    document.getElementById("title9").innerHTML=("C");
+    document.getElementById("img9").innerHTML=(" <img src=\"../IMAGES/cimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level9").innerHTML=("Beginner");
+    document.getElementById("title10").innerHTML=("Swift");
+    document.getElementById("img10").innerHTML=(" <img src=\"../IMAGES/swiftimage.png\" width=\"40px\" height=\"40px\">");
+    document.getElementById("level10").innerHTML=("Beginner");
     document.getElementById("box11").style.visibility="hidden";
     document.getElementById("box12").style.visibility="hidden";
 }
-
 
 function toolsbuttonfunction(){
     document.querySelector(".techstackbutton").style.background="rgba(0,70,71,0)"
