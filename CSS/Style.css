@@ -1064,9 +1064,9 @@ a:hover{
         width: 50%;
         margin: auto;
         padding-bottom: 3%;
-        /*border-style: dashed;*/
-        /*border-color: green;*/
-        /*border-width: 2px;*/
+        border-style: dashed;
+        border-color: green;
+        border-width: 2px;
     }
     .toothless2{
         max-width: 100%;
